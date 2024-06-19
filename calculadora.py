@@ -9,6 +9,7 @@ while True:
             3- Multiplicar
             4- dividir 
             5.- sumar 3 valores
+            6.- sumar 5 valores
         """)
 
     valor = int(input("Elige una opcion: ") )     
@@ -27,6 +28,8 @@ while True:
         break;
     if valor == 5:
         print (f"La suma es {num1+num2+num3}")
+    if valor == 6:
+        print (f"La suma es {num1 + num2 + num3 + num1 + num2}")
     else:
         print("Opcion incorrecta")
         break;
